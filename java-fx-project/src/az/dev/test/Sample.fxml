@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane minHeight="384.0" prefHeight="404.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button layoutX="38.0" layoutY="129.0" mnemonicParsing="false" onAction="#saveStudent" prefHeight="34.0" prefWidth="135.0" style="-fx-background-color: red;" styleClass="my-button" text="Yadda saxlayin" textFill="#4710cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label fx:id="studentNameLabel" layoutX="38.0" layoutY="191.0" prefHeight="85.0" prefWidth="242.0" text="Label">
+         <font>
+            <Font name="System Bold" size="49.0" />
+         </font>
+      </Label>
+      <Button layoutX="239.0" layoutY="131.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="135.0" style="-fx-background-color: blue;" text="Login ac" textFill="#ff0303">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
